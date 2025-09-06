@@ -1,4 +1,4 @@
-# 🌟 KanKan – A Gamifoed Kanban Board
+# 🌟 KanKan – A Gamified Kanban Board
 
 KanKan is an **easy-to-use Kanban board application** written in ScalaFX.
 It allows users to create and manage boards, lists, and cards with smooth drag-and-drop, templates, achievements, and more.
@@ -43,4 +43,3 @@ Libraries used:
 
 ---
 
-Would you like me to also **add Markdown code blocks for the UML diagram and screenshots placeholders** so that the README can be directly copy-paste ready into GitHub?
