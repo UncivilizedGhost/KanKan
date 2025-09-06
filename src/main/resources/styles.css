@@ -1,0 +1,349 @@
+/* =====================
+      Text Styles
+   ===================== */
+.label {
+    -fx-font-size: 14px;
+    -fx-font-family: "Inter";
+}
+
+.description {
+    -fx-font-family: "Roboto Mono";
+}
+
+.title {
+    -fx-text-fill: #2D539E;
+    -fx-font-family: "Roboto Mono";
+    -fx-font-size: 20px;
+}
+
+.neg-title {
+    -fx-text-fill: #703444;
+    -fx-font-family: "Roboto Mono";
+    -fx-font-size: 26px;
+}
+
+.pos-title {
+    -fx-text-fill: #0d0a4a;
+    -fx-font-family: "Roboto Mono";
+    -fx-font-size: 26px;
+}
+
+/* =====================
+      Button Styles
+   ===================== */
+
+.button {
+    -fx-font-weight: bold;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 6px 12px;
+}
+
+
+.big-button {
+    -fx-font-size: 18px;
+}
+
+.small-button {
+    -fx-font-size: 8px;
+}
+
+
+.add-button {
+    -fx-background-color: #C4C8D8;
+    -fx-font-size: 18px;
+}
+
+.add-button:hover {
+    -fx-background-color: #62646c;
+    -fx-text-fill: #e7e9ef;
+}
+
+.primary-button {
+    -fx-background-color: #2D539E;
+    -fx-text-fill: #E8E9EC;
+}
+
+.primary-button:hover {
+    -fx-background-color: #34384B;
+}
+
+.secondary-button {
+    -fx-background-color: #ADB1C4;
+    -fx-text-fill: #34384B;
+    -fx-border-radius: 30%;
+    -fx-background-radius: 30%;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #34384B;
+    -fx-text-fill: #E8E9EC;
+}
+
+.negative-button {
+    -fx-background-color: #BA5671;
+    -fx-text-fill: #E8E9EC;
+}
+
+.negative-button:hover {
+    -fx-background-color: #72445D;
+}
+
+/* =====================
+      Container Styles
+   ===================== */
+
+.menu-hbox {
+    -fx-padding: 10px 0px 0px 0px;
+    -fx-background-color: #E8E9EC;
+    -fx-font-weight: bold;
+}
+
+.list-hbox {
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+}
+
+.board-hbox {
+    -fx-padding: 10px 0px 0px 10px;
+    -fx-background-color: #E8E9EC;
+    -fx-font-weight: bold;
+}
+
+
+.rounded-vbox {
+    -fx-background-color: #C4C8D8;
+    -fx-background-radius: 35;
+    -fx-padding: 15;
+    -fx-border-radius: 35;
+}
+
+.ach-vbox {
+    -fx-background-color: #bdc9ed;
+    -fx-background-radius: 35;
+    -fx-padding: 15;
+    -fx-border-radius: 35;
+}
+
+
+.card-box {
+    -fx-background-color: #E8E9EC;
+    -fx-border-color: #8D91A4;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 10px;
+    -fx-padding: 7px;
+    -fx-border-width: 4px;
+}
+
+/* =====================
+      Misc Styles
+   ===================== */
+
+.text-field {
+    -fx-background-color: #F5F5F5;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-padding: 6px 12px;
+    -fx-font-size: 14px;
+    -fx-font-family: "Roboto Mono";
+    -fx-font-color: #2D539E;
+}
+
+.search {
+    -fx-border-color: #8B8C8E;
+}
+
+.text-area {
+    -fx-background-color: #F5F5F5;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-font-size: 14px;
+    -fx-font-family: "Roboto Mono";
+    -fx-font-color: #2D539E;
+}
+
+.entry {
+    -fx-font-weight: bold;
+}
+
+
+.combo-box {
+    -fx-background-color: #ADB1C4;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-font-size: 14px;
+    -fx-text-fill: #2D539E;
+}
+
+.combo-box .arrow-button {
+    -fx-background-radius: 12px;
+}
+
+.combo-box-popup .list-view {
+    -fx-control-inner-background: #ADB1C4;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-font-size: 14px;
+    -fx-text-fill: #2D539E;
+}
+
+.combo-box-popup .list-view .list-cell {
+    -fx-background-radius: 8px;
+}
+
+.combo-box-popup .list-view .list-cell:hover {
+    -fx-background-color: #2D539E;
+    -fx-text-fill: #E8E9EC;
+}
+
+
+.date-picker {
+    -fx-background-color: transparent;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-font-size: 14px;
+    -fx-text-fill: green;
+    -fx-border-color: transparent;
+}
+
+.date-picker .text-field {
+    -fx-background-color: #F5F5F5;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-padding: 6px 12px;
+    -fx-font-size: 14px;
+    -fx-text-fill: #2D539E;
+    -fx-text-weight: bold;
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 50%;
+    -fx-border-radius: 50%;
+    -fx-padding: 5px;
+}
+
+.date-picker .arrow-button:hover {
+    -fx-background-color: #D6DAE8;
+    -fx-border-color: #2D539E;
+}
+
+.date-picker .calendar-popup {
+    -fx-background-color: #F5F5F5;
+}
+
+.date-picker .date-cell {
+    -fx-text-fill: #2D539E;
+    -fx-background-color: #F5F5F5;
+}
+
+.date-picker .date-cell:hover {
+    -fx-background-color: #2D539E;
+    -fx-text-fill: #E8E9EC;
+}
+
+
+.check-box > .box {
+    -fx-background-color: #E8E9EC;
+}
+
+.check-box:hover > .box {
+    -fx-background-color: #6F83AA;
+}
+
+.check-box:selected > .box {
+    -fx-background-color: #4A5A7A;
+}
+
+.check-box:selected > .box > .mark {
+    -fx-background-color: #E8E9EC;
+}
+
+.tag {
+    -fx-background-color: #5D6A7D;
+    -fx-text-fill: #E8E9EC;
+    -fx-font-size: 12px;
+    -fx-padding: 6 1 6 12;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-position-shape: true;
+    -fx-shape: "M 25 0
+                Q 22 0, 22 5
+                L 22 20
+                Q 10 25, 22 30
+                L 22 45
+                Q 22 50, 25 50
+                L 95 50
+                Q 100 50, 100 45
+                L 100 5
+                Q 100 0, 95 0
+                Z";
+    -fx-font-weight: bold;
+}
+
+.tag-small {
+    -fx-font-weight: bold;
+    -fx-padding: 3 10;
+    -fx-font-size: 12px;
+    -fx-background-color: #5D6A7D;
+    -fx-text-fill: #E8E9EC;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-position-shape: true;
+    -fx-shape: "M 25 0
+                Q 22 0, 22 5
+                L 22 20
+                Q 10 25, 22 30
+                L 22 45
+                Q 22 50, 25 50
+                L 95 50
+                Q 100 50, 100 45
+                L 100 5
+                Q 100 0, 95 0
+                Z";
+}
+
+.tag:hover {
+    -fx-background-color: #2D539E;
+    -fx-text-fill: #E8E9EC;
+}
+
+
+.progress-bar {
+    -fx-accent: #2d539e;
+    -fx-background-color: #e8e9ec20;
+}
+
+.progress-bar .track {
+    -fx-background-color: #bdc9ed;
+}
+
+.progress-bar .bar {
+    -fx-background-color: #2d539e;
+}
+
+
+.scroll-pane {
+    -fx-background-color: #E8E9EC;
+}
+
+.scroll-pane .scroll-bar:vertical,
+.scroll-pane .scroll-bar:horizontal,
+.scroll-pane .scroll-bar .increment-button,
+.scroll-pane .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 0;
+}
+
+.scroll-pane .scroll-bar .thumb {
+    -fx-opacity: 0;
+}
+
+.archive-list {
+    -fx-background-color: #E8E9EC;
+    -fx-border-color: #C4C8D8;
+    -fx-border-width: 3px;
+    -fx-border-radius: 20px;
+    -fx-padding: 0 0 0 5px;
+}
