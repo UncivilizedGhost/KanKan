@@ -1,4 +1,4 @@
-# 🌟 KanKan – A Gamified Kanban Board
+# KanKan – A Gamified Kanban Board
 
 KanKan is an **easy-to-use Kanban board application** written in ScalaFX.
 It allows users to create and manage boards, lists, and cards with smooth drag-and-drop, templates, achievements, and more.
@@ -29,9 +29,9 @@ It allows users to create and manage boards, lists, and cards with smooth drag-a
  
 Libraries used:
 
-* 📦 **Circe** → JSON
-* ⏰ **nscala-time** → Date/Time
-* 🎨 **ScalaFX** → UI
+* **Circe** → JSON
+* **nscala-time** → Date/Time
+* **ScalaFX** → UI
 
 ---
 
